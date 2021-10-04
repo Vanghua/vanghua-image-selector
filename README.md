@@ -17,6 +17,7 @@ import VanghuaImageSelector from "vanghua-image-selector"
 |  ----  | ----  | ---- |
 | height  | 控制展示框的高度 | 同css中的height单位 |
 | width  | 控制展示框的宽度 | 同css中的width单位 |
+| background | 控制展示框的背景色 | 和css中的background一样 |
 | type | 控制图片选择框的类型 | 'circle'表示圆形，用于头像选取; 'rec'表示矩形，用于背景选取|
 | innerStyle | 控制展示框的样式 | 类型是对象，用于给展示框设置样式 |
 
