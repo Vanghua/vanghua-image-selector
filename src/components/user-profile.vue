@@ -74,8 +74,10 @@ export default {
       this.userProfileShow = false
       // 清空files，否则再次打开相同的图片不会触发change事件
       this.input.files = this.files
-      if(image)
+      if(image) {
         this.$refs.img.src = image;
+        this.$emit("finished", image);
+      }
     }
   }
 }
